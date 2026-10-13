@@ -1,0 +1,1156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- SEO & Primary Meta Tags -->
+  <title>Yash Goyal | B.Tech CSE (AI &amp; ML) | Aspiring Software Engineer</title>
+  <meta name="title" content="Yash Goyal | B.Tech CSE (AI &amp; ML) | Aspiring Software Engineer">
+  <meta name="description" content="Official personal portfolio of Yash Goyal. B.Tech Computer Science and Engineering (AI &amp; ML) student at AKTU. Aspiring Software Engineer passionate about Data Structures, Algorithms, Python, C++, and Web Development.">
+  <meta name="author" content="Yash Goyal">
+  <meta name="keywords" content="Yash Goyal, Software Engineer, Portfolio, B.Tech CSE, AI ML, AKTU, C++, Python, DSA, Web Developer">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://github.com/Yashgoyal0">
+  <meta property="og:title" content="Yash Goyal | Aspiring Software Engineer">
+  <meta property="og:description" content="Portfolio of Yash Goyal - B.Tech CSE (AI &amp; ML) student at AKTU. Passionate about software development, DSA, and problem solving.">
+  <meta property="og:image" content="assets/images/project-portfolio.svg">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:title" content="Yash Goyal | Aspiring Software Engineer">
+  <meta property="twitter:description" content="Portfolio of Yash Goyal - B.Tech CSE (AI &amp; ML) student at AKTU.">
+  <meta property="twitter:image" content="assets/images/project-portfolio.svg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+
+  <!-- Google Fonts: Plus Jakarta Sans & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome 6 Icons (CDN) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ======================================================================
+       NAVIGATION BAR (STICKY & RESPONSIVE)
+       ====================================================================== -->
+  <header class="site-header" id="header">
+    <div class="container nav-container">
+      <!-- Logo / Name -->
+      <a href="#home" class="brand-logo" aria-label="Yash Goyal Home">
+        <div class="brand-icon">&lt;/&gt;</div>
+        <span class="brand-name">Yash Goyal<span class="brand-tag">.dev</span></span>
+      </a>
+
+      <!-- Desktop Nav Links -->
+      <nav class="nav-links" aria-label="Main Navigation">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#achievements" class="nav-link">Achievements</a>
+        <a href="#resume" class="nav-link">Resume</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Header Actions (CTA & Mobile Hamburger) -->
+      <div class="header-actions">
+        <a href="#contact" class="btn btn-primary btn-sm" style="display: none;">Let's Talk</a>
+        <!-- Hamburger Button for Mobile -->
+        <button type="button" class="hamburger-btn" id="hamburger-btn" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="mobile-drawer">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Overlay & Drawer -->
+  <div class="mobile-nav-overlay" id="mobile-overlay" aria-hidden="true"></div>
+  <aside class="mobile-nav-drawer" id="mobile-drawer" aria-label="Mobile Navigation">
+    <div class="mobile-nav-links">
+      <a href="#home" class="mobile-nav-link active">
+        <i class="fa-solid fa-house"></i> Home
+      </a>
+      <a href="#about" class="mobile-nav-link">
+        <i class="fa-solid fa-user"></i> About
+      </a>
+      <a href="#skills" class="mobile-nav-link">
+        <i class="fa-solid fa-code"></i> Skills
+      </a>
+      <a href="#projects" class="mobile-nav-link">
+        <i class="fa-solid fa-layer-group"></i> Projects
+      </a>
+      <a href="#education" class="mobile-nav-link">
+        <i class="fa-solid fa-graduation-cap"></i> Education
+      </a>
+      <a href="#achievements" class="mobile-nav-link">
+        <i class="fa-solid fa-trophy"></i> Achievements
+      </a>
+      <a href="#resume" class="mobile-nav-link">
+        <i class="fa-solid fa-file-lines"></i> Resume
+      </a>
+      <a href="#contact" class="mobile-nav-link">
+        <i class="fa-solid fa-envelope"></i> Contact
+      </a>
+    </div>
+    <div class="mobile-nav-footer">
+      <a href="#contact" class="btn btn-primary" style="width: 100%;">
+        <i class="fa-solid fa-paper-plane"></i> Contact Me
+      </a>
+    </div>
+  </aside>
+
+  <!-- ======================================================================
+       MAIN CONTENT CONTAINER
+       ====================================================================== -->
+  <main id="main-content">
+
+    <!-- ====================================================================
+         1. HERO SECTION
+         ==================================================================== -->
+    <section class="section hero-section" id="home">
+      <div class="container hero-grid">
+        <!-- Hero Left Column: Bio & CTAs -->
+        <div class="hero-content reveal-fade-up">
+          <div class="hero-badge">
+            <span class="pulse-dot"></span>
+            Open to Software Engineering Internships
+          </div>
+          <h1 class="hero-title">
+            Hi, I'm <span class="gradient-text">Yash Goyal</span>
+          </h1>
+          <p class="hero-subtitle">
+            B.Tech CSE (AI &amp; ML) Student | Aspiring Software Engineer
+          </p>
+          <p class="hero-intro">
+            I am a Computer Science and Engineering student passionate about software development, problem solving, Data Structures and Algorithms, Artificial Intelligence and Machine Learning.
+          </p>
+
+          <!-- Primary Hero Actions -->
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              <i class="fa-solid fa-folder-open"></i> View My Projects
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <i class="fa-regular fa-paper-plane"></i> Contact Me
+            </a>
+            <button type="button" class="btn btn-outline" id="hero-view-resume-btn">
+              <i class="fa-regular fa-file-lines"></i> View Resume
+            </button>
+          </div>
+
+          <!-- Hero Social Links -->
+          <div class="hero-socials">
+            <span class="hero-socials-label">Connect:</span>
+            <div class="social-links">
+              <!-- GitHub Link -->
+              <a href="https://github.com/Yashgoyal0" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Yash Goyal's GitHub Profile" title="GitHub Profile">
+                <i class="fa-brands fa-github"></i>
+              </a>
+
+              <!-- LinkedIn Placeholder Link (Replace href when available) -->
+              <a href="#" class="social-link" aria-label="LinkedIn Profile (Placeholder)" title="LinkedIn Profile (Add your URL here)" onclick="alert('LinkedIn profile URL placeholder. You can update this link in index.html!'); return false;">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+
+              <!-- Email Placeholder Link (Replace href when available) -->
+              <a href="mailto:your.email@example.com" class="social-link" aria-label="Email (Placeholder)" title="Email Yash Goyal">
+                <i class="fa-regular fa-envelope"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Right Column: Developer Code Visual -->
+        <div class="hero-visual reveal-fade-up">
+          <div class="code-terminal-card" role="region" aria-label="Interactive Developer Profile Terminal">
+            <div class="terminal-header">
+              <div class="terminal-controls">
+                <span class="dot dot-red"></span>
+                <span class="dot dot-yellow"></span>
+                <span class="dot dot-green"></span>
+              </div>
+              <span class="terminal-filename">developer_profile.py</span>
+              <span class="terminal-status">● Active</span>
+            </div>
+
+            <div class="terminal-body">
+              <div class="code-line"><span class="code-keyword">class</span> <span class="code-class">SoftwareEngineer</span>:</div>
+              <div class="code-line">    <span class="code-keyword">def</span> <span class="code-fn">__init__</span>(<span class="code-self">self</span>):</div>
+              <div class="code-line">        <span class="code-self">self</span>.name = <span class="code-string">"Yash Goyal"</span></div>
+              <div class="code-line">        <span class="code-self">self</span>.degree = <span class="code-string">"B.Tech CSE (AI &amp; ML)"</span></div>
+              <div class="code-line">        <span class="code-self">self</span>.university = <span class="code-string">"AKTU Lucknow"</span></div>
+              <div class="code-line">        <span class="code-self">self</span>.goal = <span class="code-string">"Software Engineer"</span></div>
+              <div class="code-line">        <span class="code-self">self</span>.passions = [</div>
+              <div class="code-line">            <span class="code-string">"Data Structures &amp; Algorithms"</span>,</div>
+              <div class="code-line">            <span class="code-string">"Software Development"</span>,</div>
+              <div class="code-line">            <span class="code-string">"Artificial Intelligence &amp; ML"</span></div>
+              <div class="code-line">        ]</div>
+              <div class="code-line"><br></div>
+              <div class="code-line">    <span class="code-keyword">def</span> <span class="code-fn">is_seeking_internship</span>(<span class="code-self">self</span>):</div>
+              <div class="code-line">        <span class="code-comment"># Ready to learn, build, and solve problems</span></div>
+              <div class="code-line">        <span class="code-keyword">return</span> <span class="code-bool">True</span></div>
+            </div>
+
+            <div class="terminal-footer-badge">
+              <span>Status: <strong style="color: #34D399;">Ready for Opportunities</strong></span>
+              <span class="tech-pill">Python 3.12</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         2. ABOUT ME SECTION
+         ==================================================================== -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-header reveal-fade-up">
+          <span class="section-badge">
+            <i class="fa-regular fa-user"></i> About Me
+          </span>
+          <h2 class="section-title">
+            Passionate About Engineering &amp; Problem Solving
+          </h2>
+          <p class="section-subtitle">
+            A dedicated Computer Science student building a solid technical foundation in software engineering, core algorithms, and emerging intelligent systems.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <!-- About Narrative -->
+          <div class="about-text reveal-fade-up">
+            <p class="lead-p">
+              I am a B.Tech Computer Science and Engineering (Artificial Intelligence &amp; Machine Learning) student at Dr. A.P.J. Abdul Kalam Technical University (AKTU), Lucknow.
+            </p>
+            <p>
+              I am deeply interested in software engineering and continuously learning programming principles and problem solving. I actively practice Data Structures and Algorithms to cultivate strong analytical thinking and efficient code design.
+            </p>
+            <p>
+              Along with core computational fundamentals, I am learning modern web development to build functional, user-centric software, while exploring the fundamentals of Artificial Intelligence and Machine Learning.
+            </p>
+            <p>
+              My goal is to gain practical engineering experience through software development internships and real-world projects where I can contribute enthusiastically and grow as a software engineer.
+            </p>
+
+            <!-- Key Engineering Values / Highlights -->
+            <div class="about-highlights-grid">
+              <div class="highlight-box">
+                <div class="highlight-box-icon"><i class="fa-solid fa-code"></i></div>
+                <h4 class="highlight-box-title">Algorithmic Focus</h4>
+                <p class="highlight-box-desc">Practicing Data Structures and Algorithms in C++ and Python to strengthen problem solving.</p>
+              </div>
+              <div class="highlight-box">
+                <div class="highlight-box-icon"><i class="fa-solid fa-laptop-code"></i></div>
+                <h4 class="highlight-box-title">Software Development</h4>
+                <p class="highlight-box-desc">Learning front-end and fundamental web technologies to develop clean applications.</p>
+              </div>
+              <div class="highlight-box">
+                <div class="highlight-box-icon"><i class="fa-solid fa-brain"></i></div>
+                <h4 class="highlight-box-title">AI &amp; Machine Learning</h4>
+                <p class="highlight-box-desc">Exploring intelligent algorithms, machine learning models, and data-driven systems.</p>
+              </div>
+              <div class="highlight-box">
+                <div class="highlight-box-icon"><i class="fa-solid fa-rocket"></i></div>
+                <h4 class="highlight-box-title">Internship Ready</h4>
+                <p class="highlight-box-desc">Eager to contribute to software teams through hands-on internships and collaborative work.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Professional Information Card -->
+          <div class="about-card-col reveal-fade-up">
+            <div class="info-card">
+              <div class="info-card-header">
+                <div class="avatar-wrapper">
+                  <!-- Clean developer avatar placeholder (no invented photograph) -->
+                  <img src="assets/images/profile-placeholder.svg" alt="Yash Goyal Avatar Placeholder" class="avatar-img">
+                </div>
+                <div class="info-header-meta">
+                  <h3>Yash Goyal</h3>
+                  <p>B.Tech CSE (AI &amp; ML)</p>
+                </div>
+              </div>
+
+              <div class="info-details-list">
+                <div class="info-item">
+                  <span class="info-label"><i class="fa-solid fa-user-tag" style="margin-right: 6px;"></i> Full Name:</span>
+                  <span class="info-value">Yash Goyal</span>
+                </div>
+                <div class="info-item">
+                  <span class="info-label"><i class="fa-solid fa-graduation-cap" style="margin-right: 6px;"></i> Degree:</span>
+                  <span class="info-value">B.Tech CSE (AI &amp; ML)</span>
+                </div>
+                <div class="info-item">
+                  <span class="info-label"><i class="fa-solid fa-building-columns" style="margin-right: 6px;"></i> University:</span>
+                  <span class="info-value">AKTU, Lucknow</span>
+                </div>
+                <div class="info-item">
+                  <span class="info-label"><i class="fa-solid fa-bullseye" style="margin-right: 6px;"></i> Career Goal:</span>
+                  <span class="info-value">Software Engineer</span>
+                </div>
+                <div class="info-item">
+                  <span class="info-label"><i class="fa-solid fa-briefcase" style="margin-right: 6px;"></i> Status:</span>
+                  <span class="info-badge">Seeking Internships</span>
+                </div>
+                <div class="info-item">
+                  <span class="info-label"><i class="fa-brands fa-github" style="margin-right: 6px;"></i> GitHub:</span>
+                  <span class="info-value"><a href="https://github.com/Yashgoyal0" target="_blank" rel="noopener noreferrer" style="color: var(--accent-sky);">@Yashgoyal0</a></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         3. TECHNICAL SKILLS SECTION
+         ==================================================================== -->
+    <section class="section" id="skills" style="background: rgba(13, 21, 39, 0.4);">
+      <div class="container">
+        <div class="section-header reveal-fade-up">
+          <span class="section-badge">
+            <i class="fa-solid fa-screwdriver-wrench"></i> Technical Skills
+          </span>
+          <h2 class="section-title">
+            Technologies &amp; Competencies
+          </h2>
+          <p class="section-subtitle">
+            Technologies I am actively learning, practicing, and working with across programming, algorithms, and development.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Category 1: Programming Languages -->
+          <div class="skill-category-card reveal-fade-up">
+            <div class="category-header">
+              <div class="category-icon">
+                <i class="fa-solid fa-code"></i>
+              </div>
+              <div>
+                <h3 class="category-title">Programming</h3>
+                <p class="category-note">Core Coding Languages</p>
+              </div>
+            </div>
+
+            <div class="skills-items">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name-wrap">
+                    <i class="fa-solid fa-terminal skill-icon"></i> C
+                  </span>
+                  <span class="skill-status-tag">Practicing</span>
+                </div>
+                <p class="skill-desc">Procedural programming, pointers, memory management, and fundamentals.</p>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name-wrap">
+                    <i class="fa-solid fa-terminal skill-icon"></i> C++
+                  </span>
+                  <span class="skill-status-tag">Active Focus</span>
+                </div>
+                <p class="skill-desc">Object-oriented programming, standard template library (STL), and DSA implementation.</p>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name-wrap">
+                    <i class="fa-brands fa-python skill-icon"></i> Python
+                  </span>
+                  <span class="skill-status-tag">Active Focus</span>
+                </div>
+                <p class="skill-desc">Scripting, logic building, clean syntax, and foundation for AI/ML concepts.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 2: Computer Science Core -->
+          <div class="skill-category-card reveal-fade-up">
+            <div class="category-header">
+              <div class="category-icon">
+                <i class="fa-solid fa-diagram-project"></i>
+              </div>
+              <div>
+                <h3 class="category-title">Computer Science</h3>
+                <p class="category-note">Theoretical &amp; Algorithmic Core</p>
+              </div>
+            </div>
+
+            <div class="skills-items">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name-wrap">
+                    <i class="fa-solid fa-sitemap skill-icon"></i> Data Structures &amp; Algorithms
+                  </span>
+                  <span class="skill-status-tag">Core Focus</span>
+                </div>
+                <p class="skill-desc">Arrays, Linked Lists, Stacks, Queues, Trees, Searching, and Sorting algorithms.</p>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name-wrap">
+                    <i class="fa-solid fa-cubes skill-icon"></i> Object-Oriented Programming
+                  </span>
+                  <span class="skill-status-tag">Practicing</span>
+                </div>
+                <p class="skill-desc">Encapsulation, Inheritance, Polymorphism, Abstraction, and clean class architectures.</p>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name-wrap">
+                    <i class="fa-solid fa-lightbulb skill-icon"></i> Problem Solving
+                  </span>
+                  <span class="skill-status-tag">Continuous Practice</span>
+                </div>
+                <p class="skill-desc">Algorithmic thinking, time/space complexity evaluation, and edge-case handling.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 3: Web Development -->
+          <div class="skill-category-card reveal-fade-up">
+            <div class="category-header">
+              <div class="category-icon">
+                <i class="fa-solid fa-globe"></i>
+              </div>
+              <div>
+                <h3 class="category-title">Web Development</h3>
+                <p class="category-note">Frontend Technologies</p>
+              </div>
+            </div>
+
+            <div class="skills-items">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name-wrap">
+                    <i class="fa-brands fa-html5 skill-icon"></i> HTML
+                  </span>
+                  <span class="skill-status-tag">Practicing</span>
+                </div>
+                <p class="skill-desc">Semantic HTML5 structuring, web standards, and accessible markup elements.</p>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name-wrap">
+                    <i class="fa-brands fa-css3-alt skill-icon"></i> CSS
+                  </span>
+                  <span class="skill-status-tag">Practicing</span>
+                </div>
+                <p class="skill-desc">Modern Flexbox, CSS Grid, media queries, CSS variables, and responsive UI layouts.</p>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name-wrap">
+                    <i class="fa-brands fa-js skill-icon"></i> JavaScript
+                  </span>
+                  <span class="skill-status-tag">Learning</span>
+                </div>
+                <p class="skill-desc">Core ES6+ features, DOM manipulation, event listeners, and interactive UI behavior.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 4: Tools & Version Control -->
+          <div class="skill-category-card reveal-fade-up">
+            <div class="category-header">
+              <div class="category-icon">
+                <i class="fa-solid fa-toolbox"></i>
+              </div>
+              <div>
+                <h3 class="category-title">Developer Tools</h3>
+                <p class="category-note">Productivity &amp; Workflow</p>
+              </div>
+            </div>
+
+            <div class="skills-items">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name-wrap">
+                    <i class="fa-brands fa-git-alt skill-icon"></i> Git
+                  </span>
+                  <span class="skill-status-tag">Essential Tool</span>
+                </div>
+                <p class="skill-desc">Version control, commit history, branching, and repository management.</p>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name-wrap">
+                    <i class="fa-brands fa-github skill-icon"></i> GitHub
+                  </span>
+                  <span class="skill-status-tag">Active User</span>
+                </div>
+                <p class="skill-desc">Remote repository hosting, project documentation, and open source collaboration.</p>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name-wrap">
+                    <i class="fa-solid fa-code-compare skill-icon"></i> VS Code
+                  </span>
+                  <span class="skill-status-tag">Primary Editor</span>
+                </div>
+                <p class="skill-desc">Integrated debugging, extensions, syntax highlighting, and development workflow.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 5: Emerging Technologies -->
+          <div class="skill-category-card reveal-fade-up">
+            <div class="category-header">
+              <div class="category-icon">
+                <i class="fa-solid fa-microchip"></i>
+              </div>
+              <div>
+                <h3 class="category-title">Emerging Technologies</h3>
+                <p class="category-note">Specialization Track</p>
+              </div>
+            </div>
+
+            <div class="skills-items">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name-wrap">
+                    <i class="fa-solid fa-network-wired skill-icon"></i> Artificial Intelligence
+                  </span>
+                  <span class="skill-status-tag">Exploring</span>
+                </div>
+                <p class="skill-desc">Foundations of intelligent agents, search algorithms, and knowledge representation.</p>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name-wrap">
+                    <i class="fa-solid fa-chart-line skill-icon"></i> Machine Learning
+                  </span>
+                  <span class="skill-status-tag">Exploring</span>
+                </div>
+                <p class="skill-desc">Introductory supervised/unsupervised learning concepts, model evaluation, and Python data pipelines.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         4. PROJECTS SECTION
+         ==================================================================== -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-header reveal-fade-up">
+          <span class="section-badge">
+            <i class="fa-solid fa-folder-closed"></i> Featured Projects
+          </span>
+          <h2 class="section-title">
+            Projects &amp; Practical Work
+          </h2>
+          <p class="section-subtitle">
+            A showcase of programming projects demonstrating foundational coding, logical problem solving, and software development.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1: Guess the Number -->
+          <article class="project-card reveal-fade-up">
+            <div class="project-img-container">
+              <img src="assets/images/project-guess-number.svg" alt="Guess the Number Game Project Thumbnail" class="project-img">
+              <div class="project-badge-overlay">
+                <span class="badge-tag badge-completed">Python Game</span>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <h3 class="project-title">Guess the Number</h3>
+              <p class="project-desc">
+                A beginner-friendly number guessing game developed in Python to practice programming fundamentals, conditions, loops and logical thinking.
+              </p>
+
+              <div class="project-tech-tags">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">CLI</span>
+                <span class="tech-tag">Logic &amp; Conditions</span>
+                <span class="tech-tag">Loops</span>
+              </div>
+
+              <div class="project-actions">
+                <a href="https://github.com/Yashgoyal0" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                  <i class="fa-brands fa-github"></i> GitHub Code
+                </a>
+                <button type="button" class="btn btn-primary btn-sm" id="guess-game-demo-btn">
+                  <i class="fa-solid fa-play"></i> Live Demo
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: DSA Practice -->
+          <article class="project-card reveal-fade-up">
+            <div class="project-img-container">
+              <img src="assets/images/project-dsa-practice.svg" alt="DSA Practice Project Thumbnail" class="project-img">
+              <div class="project-badge-overlay">
+                <span class="badge-tag badge-practice">Algorithms</span>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <h3 class="project-title">DSA Practice</h3>
+              <p class="project-desc">
+                A collection of Data Structures and Algorithms practice implementations focused on improving problem-solving and algorithmic thinking.
+              </p>
+
+              <div class="project-tech-tags">
+                <span class="tech-tag">C++</span>
+                <span class="tech-tag">Data Structures</span>
+                <span class="tech-tag">Algorithms</span>
+                <span class="tech-tag">Problem Solving</span>
+              </div>
+
+              <div class="project-actions">
+                <a href="https://github.com/Yashgoyal0" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                  <i class="fa-brands fa-github"></i> GitHub Code
+                </a>
+                <a href="https://github.com/Yashgoyal0" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: Personal Portfolio -->
+          <article class="project-card reveal-fade-up">
+            <div class="project-img-container">
+              <img src="assets/images/project-portfolio.svg" alt="Personal Portfolio Project Thumbnail" class="project-img">
+              <div class="project-badge-overlay">
+                <span class="badge-tag badge-completed">Web Portfolio</span>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <h3 class="project-title">Personal Portfolio</h3>
+              <p class="project-desc">
+                A responsive personal portfolio website designed to showcase my technical skills, projects, education and professional goals.
+              </p>
+
+              <div class="project-tech-tags">
+                <span class="tech-tag">HTML</span>
+                <span class="tech-tag">CSS</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">Responsive Design</span>
+              </div>
+
+              <div class="project-actions">
+                <a href="https://github.com/Yashgoyal0" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                  <i class="fa-brands fa-github"></i> GitHub Code
+                </a>
+                <a href="#home" class="btn btn-primary btn-sm">
+                  <i class="fa-solid fa-eye"></i> Live Demo
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Future Project: AI / ML Project -->
+          <article class="project-card upcoming reveal-fade-up">
+            <div class="project-img-container">
+              <img src="assets/images/project-ai-ml.svg" alt="AI / ML Upcoming Project Thumbnail" class="project-img">
+              <div class="project-badge-overlay">
+                <span class="badge-tag badge-upcoming">Upcoming Project</span>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <h3 class="project-title">AI / ML Project</h3>
+              <p class="project-desc">
+                Upcoming artificial intelligence and machine learning project.
+              </p>
+
+              <div class="project-tech-tags">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Artificial Intelligence</span>
+                <span class="tech-tag">Machine Learning</span>
+                <span class="tech-tag">In Planning</span>
+              </div>
+
+              <div class="project-actions">
+                <a href="https://github.com/Yashgoyal0" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm" style="opacity: 0.85;">
+                  <i class="fa-brands fa-github"></i> Repository Soon
+                </a>
+                <button type="button" class="btn btn-outline btn-sm" disabled style="cursor: not-allowed; opacity: 0.6;">
+                  <i class="fa-solid fa-clock"></i> In Development
+                </button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         5. EDUCATION SECTION
+         ==================================================================== -->
+    <section class="section" id="education" style="background: rgba(13, 21, 39, 0.4);">
+      <div class="container">
+        <div class="section-header reveal-fade-up">
+          <span class="section-badge">
+            <i class="fa-solid fa-graduation-cap"></i> Academic Background
+          </span>
+          <h2 class="section-title">
+            Education
+          </h2>
+          <p class="section-subtitle">
+            Formal computational studies emphasizing Computer Science fundamentals, programming, and Artificial Intelligence.
+          </p>
+        </div>
+
+        <div class="education-container">
+          <div class="education-timeline">
+            <!-- Timeline Node 1: Current B.Tech Degree -->
+            <div class="timeline-node reveal-fade-up">
+              <div class="timeline-marker"></div>
+              <div class="timeline-card">
+                <div class="timeline-card-header">
+                  <h3 class="degree-title">
+                    B.Tech in Computer Science and Engineering<br>
+                    <span style="font-size: 1.05rem; color: var(--accent-cyan); font-weight: 600;">(Artificial Intelligence &amp; Machine Learning)</span>
+                  </h3>
+                  <span class="status-badge">
+                    <i class="fa-solid fa-circle-dot" style="font-size: 0.65rem; margin-right: 4px;"></i> Currently Pursuing
+                  </span>
+                </div>
+
+                <div class="institution-name">
+                  <i class="fa-solid fa-building-columns"></i>
+                  Dr. A.P.J. Abdul Kalam Technical University (AKTU), Lucknow
+                </div>
+
+                <p class="education-details">
+                  Undergraduate program focused on Computer Science foundations, computational mathematics, Object-Oriented Programming, Data Structures, Algorithms, and specialized tracks in Artificial Intelligence &amp; Machine Learning.
+                </p>
+
+                <div class="focus-pills">
+                  <span class="focus-pill">Computer Science Core</span>
+                  <span class="focus-pill">Data Structures &amp; Algorithms</span>
+                  <span class="focus-pill">OOP Principles</span>
+                  <span class="focus-pill">Artificial Intelligence &amp; ML</span>
+                  <span class="focus-pill">Problem Solving</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         6. ACHIEVEMENTS & CERTIFICATIONS SECTION
+         ==================================================================== -->
+    <section class="section" id="achievements">
+      <div class="container">
+        <div class="section-header reveal-fade-up">
+          <span class="section-badge">
+            <i class="fa-solid fa-award"></i> Milestones
+          </span>
+          <h2 class="section-title">
+            Achievements &amp; Certifications
+          </h2>
+          <p class="section-subtitle">
+            Placeholder templates prepared for upcoming technical certifications, hackathon participations, and coding competitions.
+          </p>
+        </div>
+
+        <!-- Editable Placeholders Grid -->
+        <div class="achievements-grid">
+          <!-- Placeholder 1: Certification -->
+          <div class="placeholder-card reveal-fade-up">
+            <div class="placeholder-icon">
+              <i class="fa-solid fa-certificate"></i>
+            </div>
+            <h3 class="placeholder-title">Add Certification</h3>
+            <p class="placeholder-desc">
+              Slot ready for technical certification (e.g., Python, C++, DSA, or Machine Learning course).
+            </p>
+            <span class="placeholder-tag">
+              <i class="fa-solid fa-plus"></i> Editable Placeholder
+            </span>
+          </div>
+
+          <!-- Placeholder 2: Hackathon -->
+          <div class="placeholder-card reveal-fade-up">
+            <div class="placeholder-icon">
+              <i class="fa-solid fa-laptop-code"></i>
+            </div>
+            <h3 class="placeholder-title">Add Hackathon</h3>
+            <p class="placeholder-desc">
+              Slot ready for hackathon participation, team projects, and product innovation challenges.
+            </p>
+            <span class="placeholder-tag">
+              <i class="fa-solid fa-plus"></i> Editable Placeholder
+            </span>
+          </div>
+
+          <!-- Placeholder 3: Achievement -->
+          <div class="placeholder-card reveal-fade-up">
+            <div class="placeholder-icon">
+              <i class="fa-solid fa-trophy"></i>
+            </div>
+            <h3 class="placeholder-title">Add Achievement</h3>
+            <p class="placeholder-desc">
+              Slot ready for coding competition rankings, platform badges, or academic recognitions.
+            </p>
+            <span class="placeholder-tag">
+              <i class="fa-solid fa-plus"></i> Editable Placeholder
+            </span>
+          </div>
+
+          <!-- Placeholder 4: Workshop / Technical Event -->
+          <div class="placeholder-card reveal-fade-up">
+            <div class="placeholder-icon">
+              <i class="fa-solid fa-users-gear"></i>
+            </div>
+            <h3 class="placeholder-title">Add Workshop / Technical Event</h3>
+            <p class="placeholder-desc">
+              Slot ready for university seminars, technical workshops, and developer bootcamps.
+            </p>
+            <span class="placeholder-tag">
+              <i class="fa-solid fa-plus"></i> Editable Placeholder
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         7. RESUME SECTION
+         ==================================================================== -->
+    <section class="section" id="resume" style="background: rgba(13, 21, 39, 0.4);">
+      <div class="container">
+        <div class="resume-card reveal-fade-up">
+          <div class="resume-content">
+            <div class="resume-icon-badge">
+              <i class="fa-regular fa-file-pdf"></i>
+            </div>
+            <h2 class="resume-heading">Curriculum Vitae</h2>
+            <p class="resume-text">
+              View or download my resume outlining my academic background at AKTU, technical skills across C, C++, Python, DSA, and passion for software engineering internships.
+            </p>
+
+            <div class="resume-actions">
+              <!-- Download Resume (Placeholder File) -->
+              <a href="assets/resume-placeholder.pdf" download="Yash_Goyal_Resume.pdf" class="btn btn-primary" id="download-resume-btn">
+                <i class="fa-solid fa-download"></i> Download Resume
+              </a>
+
+              <!-- View Resume (Opens Modal Viewer) -->
+              <button type="button" class="btn btn-secondary" id="view-resume-btn">
+                <i class="fa-solid fa-eye"></i> View Resume
+              </button>
+            </div>
+
+            <p class="resume-note">
+              <i class="fa-solid fa-circle-info"></i>
+              <span>Placeholder PDF linked. Replace with your actual resume PDF anytime in <code>assets/resume-placeholder.pdf</code>.</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         8. CONTACT SECTION
+         ==================================================================== -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-header reveal-fade-up">
+          <span class="section-badge">
+            <i class="fa-regular fa-paper-plane"></i> Get In Touch
+          </span>
+          <h2 class="section-title">
+            Let's Connect
+          </h2>
+          <p class="section-subtitle">
+            Interested in discussing internship opportunities, engineering collaborations, or tech topics? Reach out directly.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Left Column: Direct Contact Info Cards -->
+          <div class="contact-info-col reveal-fade-up">
+            <p class="contact-lead">
+              I am actively seeking software engineering internship opportunities. Feel free to send a message or connect through my profiles below!
+            </p>
+
+            <!-- Email Card with Copy Helper -->
+            <div class="contact-card-item">
+              <div class="contact-item-icon">
+                <i class="fa-regular fa-envelope"></i>
+              </div>
+              <div class="contact-item-details">
+                <div class="contact-item-label">Email Address</div>
+                <!-- Placeholder Email -->
+                <div class="contact-item-value" id="contact-email-val">your.email@example.com</div>
+              </div>
+              <div class="contact-item-action">
+                <button type="button" class="btn btn-outline btn-icon" id="copy-email-btn" title="Copy email address" aria-label="Copy Email">
+                  <i class="fa-regular fa-copy"></i>
+                </button>
+              </div>
+            </div>
+
+            <!-- LinkedIn Card (Placeholder) -->
+            <div class="contact-card-item">
+              <div class="contact-item-icon">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </div>
+              <div class="contact-item-details">
+                <div class="contact-item-label">LinkedIn Profile</div>
+                <!-- Placeholder LinkedIn URL -->
+                <div class="contact-item-value">linkedin.com/in/your-profile</div>
+              </div>
+              <div class="contact-item-action">
+                <a href="#" class="btn btn-outline btn-icon" title="LinkedIn Profile (Placeholder)" aria-label="LinkedIn" onclick="alert('LinkedIn URL placeholder. You can update this in index.html!'); return false;">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- GitHub Card -->
+            <div class="contact-card-item">
+              <div class="contact-item-icon">
+                <i class="fa-brands fa-github"></i>
+              </div>
+              <div class="contact-item-details">
+                <div class="contact-item-label">GitHub Profile</div>
+                <div class="contact-item-value">github.com/Yashgoyal0</div>
+              </div>
+              <div class="contact-item-action">
+                <a href="https://github.com/Yashgoyal0" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-icon" title="View GitHub Repositories" aria-label="GitHub">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- Location Card -->
+            <div class="contact-card-item">
+              <div class="contact-item-icon">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <div class="contact-item-details">
+                <div class="contact-item-label">Location / University</div>
+                <div class="contact-item-value">AKTU, Lucknow, Uttar Pradesh, India</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Interactive Contact Form -->
+          <div class="contact-form-col reveal-fade-up">
+            <div class="contact-form-card">
+              <form id="contact-form" novalidate>
+                <div class="form-group">
+                  <label for="contact-name" class="form-label">Your Name</label>
+                  <input type="text" id="contact-name" name="name" class="form-control" placeholder="e.g. John Doe" required>
+                </div>
+
+                <div class="form-group">
+                  <label for="contact-email" class="form-label">Your Email</label>
+                  <input type="email" id="contact-email" name="email" class="form-control" placeholder="e.g. john@example.com" required>
+                </div>
+
+                <div class="form-group">
+                  <label for="contact-subject" class="form-label">Subject</label>
+                  <input type="text" id="contact-subject" name="subject" class="form-control" placeholder="e.g. Internship Opportunity / Collaboration" required>
+                </div>
+
+                <div class="form-group">
+                  <label for="contact-message" class="form-label">Message</label>
+                  <textarea id="contact-message" name="message" class="form-control" placeholder="Hi Yash, I came across your portfolio and would like to discuss..." required></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary" style="width: 100%;">
+                  <i class="fa-solid fa-paper-plane"></i> Send Message
+                </button>
+
+                <!-- Clear Frontend-Only Notice -->
+                <div class="form-notice">
+                  <i class="fa-solid fa-circle-info"></i>
+                  <span>
+                    <strong>Notice:</strong> This form is currently in frontend-demo mode with client-side validation. To receive messages in your email inbox, easily connect free Formspree or EmailJS by following the guide in <code>README.md</code>.
+                  </span>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ======================================================================
+       FOOTER
+       ====================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <!-- Footer Brand -->
+        <div class="footer-brand">
+          <div class="footer-brand-title">Yash Goyal</div>
+          <div class="footer-brand-role">B.Tech CSE (AI &amp; ML) | Aspiring Software Engineer</div>
+          <p class="footer-brand-desc">
+            Passionate about computational problem solving, building software, and continuous learning. Open for engineering internships.
+          </p>
+        </div>
+
+        <!-- Footer Navigation Links -->
+        <div class="footer-links-group">
+          <div>
+            <div class="footer-column-title">Navigation</div>
+            <ul class="footer-nav-list">
+              <li><a href="#home" class="footer-nav-link">Home</a></li>
+              <li><a href="#about" class="footer-nav-link">About</a></li>
+              <li><a href="#skills" class="footer-nav-link">Skills</a></li>
+              <li><a href="#projects" class="footer-nav-link">Projects</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="footer-column-title">Academics</div>
+            <ul class="footer-nav-list">
+              <li><a href="#education" class="footer-nav-link">Education</a></li>
+              <li><a href="#achievements" class="footer-nav-link">Achievements</a></li>
+              <li><a href="#resume" class="footer-nav-link">Resume</a></li>
+              <li><a href="#contact" class="footer-nav-link">Contact</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="footer-column-title">Profiles</div>
+            <ul class="footer-nav-list">
+              <li><a href="https://github.com/Yashgoyal0" target="_blank" rel="noopener noreferrer" class="footer-nav-link"><i class="fa-brands fa-github" style="margin-right: 6px;"></i> GitHub</a></li>
+              <li><a href="#" class="footer-nav-link" onclick="alert('LinkedIn placeholder. Add your profile URL in index.html!'); return false;"><i class="fa-brands fa-linkedin" style="margin-right: 6px;"></i> LinkedIn</a></li>
+              <li><a href="mailto:your.email@example.com" class="footer-nav-link"><i class="fa-regular fa-envelope" style="margin-right: 6px;"></i> Email</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer Bottom Bar -->
+      <div class="footer-bottom">
+        <div>
+          &copy; <span id="current-year">2026</span> Yash Goyal. All Rights Reserved.
+        </div>
+        <div style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--text-muted);">
+          Built with clean Semantic HTML5, Modern CSS &amp; Vanilla JavaScript
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ======================================================================
+       BACK TO TOP BUTTON
+       ====================================================================== -->
+  <button type="button" class="back-to-top" id="back-to-top" aria-label="Back to top of page" title="Back to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- ======================================================================
+       MODAL 1: RESUME VIEWER MODAL
+       ====================================================================== -->
+  <div class="modal-overlay" id="resume-modal" role="dialog" aria-modal="true" aria-labelledby="resume-modal-title">
+    <div class="modal-container">
+      <div class="modal-header">
+        <h3 class="modal-title" id="resume-modal-title">
+          <i class="fa-regular fa-file-lines" style="color: var(--accent-cyan);"></i> Resume Overview - Yash Goyal
+        </h3>
+        <button type="button" class="modal-close-btn" aria-label="Close modal">&times;</button>
+      </div>
+
+      <div class="modal-body">
+        <div style="background: rgba(13, 21, 39, 0.7); border: 1px solid var(--border-light); border-radius: var(--border-radius-sm); padding: 1.25rem; margin-bottom: 1.25rem;">
+          <h4 style="color: var(--text-primary); font-size: 1.1rem; margin-bottom: 0.35rem;">Yash Goyal</h4>
+          <p style="color: var(--accent-sky); font-size: 0.9rem; margin-bottom: 0.75rem;">B.Tech CSE (AI &amp; ML) | Aspiring Software Engineer</p>
+          <p style="color: var(--text-secondary); font-size: 0.88rem; line-height: 1.6;">
+            <strong>University:</strong> Dr. A.P.J. Abdul Kalam Technical University (AKTU), Lucknow<br>
+            <strong>Status:</strong> Currently Pursuing<br>
+            <strong>Core Focus:</strong> C++, Python, Data Structures &amp; Algorithms, OOP, Web Development, AI/ML Concepts<br>
+            <strong>GitHub:</strong> <a href="https://github.com/Yashgoyal0" target="_blank" rel="noopener noreferrer" style="color: var(--accent-cyan);">github.com/Yashgoyal0</a>
+          </p>
+        </div>
+
+        <div style="background: rgba(6, 182, 212, 0.08); border-left: 3px solid var(--accent-cyan); padding: 0.85rem 1rem; border-radius: 4px; font-size: 0.85rem; color: var(--text-secondary);">
+          <strong style="color: var(--accent-cyan);">How to connect your actual resume:</strong><br>
+          Export your resume as a PDF file, save it as <code>assets/resume.pdf</code>, and update the <code>href</code> link in <code>index.html</code>.
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <a href="assets/resume-placeholder.pdf" download="Yash_Goyal_Resume.pdf" class="btn btn-primary btn-sm">
+          <i class="fa-solid fa-download"></i> Download Placeholder PDF
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======================================================================
+       MODAL 2: INTERACTIVE "GUESS THE NUMBER" DEMO RUNNER
+       ====================================================================== -->
+  <div class="modal-overlay" id="guess-game-modal" role="dialog" aria-modal="true" aria-labelledby="guess-game-title">
+    <div class="modal-container">
+      <div class="modal-header">
+        <h3 class="modal-title" id="guess-game-title">
+          <i class="fa-solid fa-gamepad" style="color: var(--accent-cyan);"></i> Guess the Number - Live Simulator
+        </h3>
+        <button type="button" class="modal-close-btn" aria-label="Close modal">&times;</button>
+      </div>
+
+      <div class="modal-body">
+        <p style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 1rem;">
+          Try the interactive browser version of Yash's Python game! The engine has picked a secret number between <strong>1 and 100</strong>.
+        </p>
+
+        <!-- Simulated Terminal Log -->
+        <div id="demo-game-log" style="background: #090E1B; border: 1px solid var(--border-light); border-radius: 8px; padding: 1rem; height: 160px; overflow-y: auto; font-family: var(--font-mono); font-size: 0.85rem; margin-bottom: 1rem;">
+          <p style="color: #64748B;">$ python guess_number.py</p>
+          <p style="color: #38BDF8;">🎯 [Game Engine] I have selected a number between 1 and 100. Make your guess!</p>
+        </div>
+
+        <div style="display: flex; gap: 0.5rem;">
+          <input type="number" id="demo-guess-input" class="form-control" placeholder="Enter number (1 - 100)" min="1" max="100">
+          <button type="button" id="demo-guess-btn" class="btn btn-primary">Guess</button>
+          <button type="button" id="demo-reset-btn" class="btn btn-secondary">Reset</button>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <a href="https://github.com/Yashgoyal0" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+          <i class="fa-brands fa-github"></i> View Python Code on GitHub
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main JavaScript File -->
+  <script src="js/main.js"></script>
+</body>
+</html>

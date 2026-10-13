@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080E1E"/>
+      <stop offset="100%" stop-color="#111B34"/>
+    </linearGradient>
+    <linearGradient id="cyanBlue2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#6366F1"/>
+    </linearGradient>
+    <pattern id="grid2" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#334155" opacity="0.4"/>
+    </pattern>
+  </defs>
+
+  <rect width="600" height="360" fill="url(#bgGrad2)"/>
+  <rect width="600" height="360" fill="url(#grid2)"/>
+
+  <!-- Left: Code snippet card -->
+  <g transform="translate(40, 40)">
+    <rect width="270" height="280" rx="12" fill="#0C1425" stroke="#1E293B" stroke-width="1.5"/>
+    <rect width="270" height="34" rx="12" fill="#131F38"/>
+    <rect y="22" width="270" height="12" fill="#131F38"/>
+    <circle cx="18" cy="17" r="5" fill="#EF4444" opacity="0.8"/>
+    <circle cx="34" cy="17" r="5" fill="#F59E0B" opacity="0.8"/>
+    <circle cx="50" cy="17" r="5" fill="#10B981" opacity="0.8"/>
+    <text x="145" y="22" fill="#94A3B8" font-family="'JetBrains Mono', monospace" font-size="11" text-anchor="middle">binary_tree.cpp</text>
+
+    <!-- Code lines -->
+    <text x="16" y="62" fill="#818CF8" font-family="'JetBrains Mono', monospace" font-size="11">#include &lt;iostream&gt;</text>
+    <text x="16" y="82" fill="#818CF8" font-family="'JetBrains Mono', monospace" font-size="11">#include &lt;vector&gt;</text>
+    <text x="16" y="110" fill="#38BDF8" font-family="'JetBrains Mono', monospace" font-size="11">struct <tspan fill="#F1F5F9">TreeNode</tspan> {</text>
+    <text x="28" y="130" fill="#E2E8F0" font-family="'JetBrains Mono', monospace" font-size="11">int val;</text>
+    <text x="28" y="150" fill="#E2E8F0" font-family="'JetBrains Mono', monospace" font-size="11">TreeNode *left, *right;</text>
+    <text x="16" y="170" fill="#38BDF8" font-family="'JetBrains Mono', monospace" font-size="11">};</text>
+    <text x="16" y="200" fill="#94A3B8" font-family="'JetBrains Mono', monospace" font-size="11">// Time: O(log N)</text>
+    <text x="16" y="220" fill="#94A3B8" font-family="'JetBrains Mono', monospace" font-size="11">// Space: O(H)</text>
+    <text x="16" y="250" fill="#10B981" font-family="'JetBrains Mono', monospace" font-size="11">✓ All 45 tests passed</text>
+  </g>
+
+  <!-- Right: Visual Binary Tree Graphic -->
+  <g transform="translate(340, 50)">
+    <rect width="220" height="260" rx="12" fill="#0C1425" stroke="#1E293B" stroke-width="1.5"/>
+    <text x="110" y="32" fill="#94A3B8" font-family="-apple-system, sans-serif" font-size="12" font-weight="600" text-anchor="middle">DATA STRUCTURES</text>
+
+    <!-- Edges -->
+    <line x1="110" y1="75" x2="60" y2="135" stroke="#38BDF8" stroke-width="2" stroke-dasharray="3,3"/>
+    <line x1="110" y1="75" x2="160" y2="135" stroke="#38BDF8" stroke-width="2"/>
+    <line x1="60" y1="135" x2="35" y2="195" stroke="#38BDF8" stroke-width="2"/>
+    <line x1="60" y1="135" x2="85" y2="195" stroke="#38BDF8" stroke-width="2"/>
+    <line x1="160" y1="135" x2="185" y2="195" stroke="#38BDF8" stroke-width="2"/>
+
+    <!-- Nodes -->
+    <!-- Root -->
+    <circle cx="110" cy="75" r="18" fill="#1E293B" stroke="#06B6D4" stroke-width="2"/>
+    <text x="110" y="80" fill="#F8FAFC" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="bold" text-anchor="middle">50</text>
+
+    <!-- Left child -->
+    <circle cx="60" cy="135" r="16" fill="#1E293B" stroke="#38BDF8" stroke-width="2"/>
+    <text x="60" y="140" fill="#F8FAFC" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="bold" text-anchor="middle">30</text>
+
+    <!-- Right child -->
+    <circle cx="160" cy="135" r="16" fill="#1E293B" stroke="#38BDF8" stroke-width="2"/>
+    <text x="160" y="140" fill="#F8FAFC" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="bold" text-anchor="middle">70</text>
+
+    <!-- Leaves -->
+    <circle cx="35" cy="195" r="13" fill="#1E293B" stroke="#60A5FA" stroke-width="1.5"/>
+    <text x="35" y="199" fill="#94A3B8" font-family="'JetBrains Mono', monospace" font-size="10" text-anchor="middle">20</text>
+
+    <circle cx="85" cy="195" r="13" fill="#1E293B" stroke="#60A5FA" stroke-width="1.5"/>
+    <text x="85" y="199" fill="#94A3B8" font-family="'JetBrains Mono', monospace" font-size="10" text-anchor="middle">40</text>
+
+    <circle cx="185" cy="195" r="13" fill="#1E293B" stroke="#60A5FA" stroke-width="1.5"/>
+    <text x="185" y="199" fill="#94A3B8" font-family="'JetBrains Mono', monospace" font-size="10" text-anchor="middle">85</text>
+
+    <!-- Tag -->
+    <rect x="35" y="225" width="150" height="22" rx="11" fill="#1E3A8A" fill-opacity="0.5"/>
+    <text x="110" y="240" fill="#67E8F9" font-family="'JetBrains Mono', monospace" font-size="10" text-anchor="middle">Algorithms &amp; Trees</text>
+  </g>
+</svg>
